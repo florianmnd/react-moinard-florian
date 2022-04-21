@@ -9,6 +9,11 @@
     font-size: 1rem;
   }
 
+  h2,
+  h4 {
+    color: white
+  }
+
   &:hover {
     transform: scale(1.2);
     z-index: 2;
@@ -35,6 +40,7 @@
     transform: scaleY(0);
     transition: 0.3s;
   }
+
   img {
     height: 100px;
     width: 160px;
