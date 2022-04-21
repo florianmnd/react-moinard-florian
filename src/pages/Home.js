@@ -15,10 +15,6 @@ const Home = () => {
             < Logo />
             <div className="countries">
                 <h3>Bienvenue {user}</h3>
-                <button onClick={() => {
-                    setUser(null)
-                    navigate("/login");
-                }}>Déconnexion</button>
             </div>
             <Navigation />
             <Countries />
